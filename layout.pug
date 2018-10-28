@@ -1,0 +1,41 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    title Poets
+    meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="format-detection" content="telephone=no")
+    link(rel="stylesheet", href="styles/css/vendor.css")
+    link(rel="stylesheet", href="styles/css/main.css")
+  body
+
+    header.main-header
+      .main-header__container.grid.grid--container
+        .row
+          .col.col--md-3
+            a(href="").logo
+              img(src="./img/logo.svg", alt="")
+          .col.col--md-6
+            .nav
+              .nav__link
+                a(href="") Стихи
+              .nav__link
+                a(href="") Поэты
+              .nav__link
+                a(href="") Эпохи
+          .col.col--md-3
+            .donate Помочь проекту
+
+    block content
+
+
+    footer.main-footer
+      .grid.grid--container
+        p this is footer
+    
+    script(src="./js/jquery-2.2.1.min.js")
+    script(src="./js/SmoothScroll.js")
+    script(src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js")
+    script(src="//yastatic.net/share2/share.js")
+    script(src="./js/main.js")
